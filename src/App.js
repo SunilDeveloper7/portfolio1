@@ -7,6 +7,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Languages from "./components/Languages";
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
     <Navbar />
     <Header />
     <About />
+    <Languages />
     <Contact />
     <Resume />
     <Projects />

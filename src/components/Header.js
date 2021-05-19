@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <div className="header-wrapper">
         <div className="main-info">
-        <h1><h1>Sunil Lama</h1></h1>
+        <h1 className="name">Sunil Lama</h1>
         <Typed
         className="typed-text"
         strings={["Software Developer","Front-end enginer","Problem Solver","Critical thinker","Positive attitude","Quick Learning Ability","A Good Team Player","High-End User Focus"]}
@@ -12,7 +12,7 @@ export const Header = () => {
         backSpeed={20}
         loop
         />
-        
+        <a href="/#Contact" className="btn-main-offer">Contact me</a>
         </div>
             
         </div>
