@@ -8,6 +8,11 @@
   --primary-hover-red:#f33501;
   --primary-aqua:#00FFFF;
   --primary-light-grey:#f4f4f4;
+  --primary-grey:#ccd1d9;
+  --primary-dark-grey:#666666;
+
+
+
 }
 
 
@@ -241,3 +246,237 @@ btn-main-offer:hover {
 .languages .box:hover p {
   color: var(--primary-white);
 }
+
+/*******************PROJECTS****************/
+
+.project_container {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+  background-color:chocolate;
+}
+
+.project_container h1 {
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.project_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+
+}
+.project_img > img {
+  width: 55%;
+  height: 800px;
+}
+
+.gif > h2 {
+  text-align: center;
+  color: var(--primary-white) !important;
+  font-family: 'Abel', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.gif > p {
+  color: var(--primary-white) !important;
+  width: 50%;
+  margin: auto;
+  font-size: 1.5em;
+  font-family: 'Abel', sans-serif;
+}
+
+.site_github_container {
+  text-align: center;
+}
+
+.livesite {
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+.site_github_container span {
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.site_github_container > a:hover {
+  color: white;
+  text-decoration: none;
+  color: orange;
+}
+#githubIMG_2 {
+  width: 23px;
+  height: 23px;
+  margin-left: 25px;
+  background: white;
+  margin-top: -10px;
+}
+#githubIMG_3 {
+  width: 23px;
+  height: 23px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: white;
+  margin-top: -10px;
+}
+#githubIMG_2:hover, #githubIMG_3:hover {
+  transform: scale(1.1);
+}
+
+#front, #back {
+  font-size: 15px;
+}
+
+.frontback:visited {
+  color: white;
+}
+
+
+
+/**************** Experience or project*************/
+
+
+.project_img > img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.gif > p {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1em;
+}
+.gif > h2 {
+  font-size: 1.5em;
+}
+#front, #back {
+  font-size: 0.8em;
+  margin: 0;
+}
+.livesite {
+  font-size: 1.4em;
+}
+.site_github_container {
+  text-align: left;
+}
+
+  /******** project ********/
+  .project_img > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.gif > p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+
+}
+.gif > h2 {
+    font-size: 1.1em;
+}
+.livesite {
+    font-size: 18px;
+}
+.site_github_container {
+    margin-left: -20px;
+}
+/******** project ********/
+.project_container h1 {
+  margin-left: -10px;
+}
+
+.project_img > img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.gif > p {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1em;
+}
+.gif > h2 {
+  font-size: 1.2em;
+}
+#front, #back {
+  font-size: 1em;
+  margin-left: 25px;
+}
+#back {
+  margin-left: 28px;
+}
+.livesite {
+  font-size: 1em;
+  margin-left: 10px;
+}
+.site_github_container {
+  text-align: left;
+}
+#githubIMG_2 {
+  width: 17px;
+  height: 17px;
+  margin-left: 25px;
+  background: white;
+  margin-top: -10px;
+}
+/******** project ********/
+.project_container h1 {
+  margin-left: -30px;
+}
+
+.project_img > img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.gif > p {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+.gif > h2 {
+  font-size: 1.5em;
+}
+#front, #back {
+  font-size: 0.5em;
+  margin-left: 25px;
+}
+#back {
+  margin-left: 28px;
+}
+.livesite {
+  font-size: 1em;
+  margin-left: 10px;
+}
+.site_github_container {
+  text-align: left;
+}
+#githubIMG_2 {
+  width: 17px;
+  height: 17px;
+  margin-left: 25px;
+  background: rgb(218, 191, 191);
+  margin-top: -10px;
+}
+/******** contact ********/
+#email_logo {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+}
+.lets_talk {
+  margin-top: 50px;
+  font-size: 3em;
+}
+
+
