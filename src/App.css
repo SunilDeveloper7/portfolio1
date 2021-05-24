@@ -474,9 +474,107 @@ btn-main-offer:hover {
   width: 150px;
   height: 150px;
 }
+.lets_have_a_conversation {
+  margin-top: 50px;
+  font-size: 3em;
+}
+
+
+.contact_main_container {
+  background-color: var(--primary-white) !important;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#contact_btn {
+  padding: 0;
+  border: none;
+  background: none;  
+}
+
+.lets_talk {
+  font-size: 13em;
+  background-color: white;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+}
+
+#email_logo {
+  width: 100%;
+  height: auto;
+}
+.lets_talk:hover, #email_logo:hover {
+  transform: scale(1.1);
+}
+ /******** contact ********/
+ #email_logo {
+  width: 300px;
+  height: 300px;
+}
+.lets_talk {
+  font-size: 5em;
+}
+
+/******** contact ********/
+#email_logo {
+  width: 100px;
+  height: 100px;
+  margin-top: -20px;
+}
+.lets_talk {
+  font-size: 3em;
+}
+
+
+/******** contact ********/
+#email_logo {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+}
 .lets_talk {
   margin-top: 50px;
   font-size: 3em;
 }
 
+
+.single_logos img {
+  width: 45px;
+  height: 45px;
+  margin: 8px;
+}
+
+.single_logos img {
+  width: 25px;
+  height: 25px;
+  margin: 8px;
+
+}
+.single_logos img {
+  width: 35px;
+  height: 35px;
+  margin: 8px;
+}
+.single_logos img {
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+}
+
+.single_logos img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;  
+}
+
+.single_logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.single_logos_container > p {
+  margin-top: 50px;
+  text-align: center;
+}
 

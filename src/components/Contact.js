@@ -1,9 +1,16 @@
-const Contact = () => {
-    return (  
-        <div>
-        <h1>Contact page</h1>
-        </div>
-    );
-}
+import emailLogo from '../Image/email.png'
 
-export default Contact;
+export default function Contact () {
+
+    const sendMail = () => {
+        const mailto = "mailto:sunnil474@gmail.com?subject=Hello, Sunil&body=How can I help you?";
+        window.open(mailto, "_blank")
+    }
+
+    return (
+        <div className="text-center d-flex align-items-center justify-content-center contact_main_container" id="contact" >
+            <button onClick={sendMail} id="contact_btn"><h1 className="lets_talk">Hello , Let have a conversation</h1></button>
+            <a href="mailto:sunnil474@gmail.com.com?subject=Hello, Sunil&body=How can I help you?" target="_blank" rel="noreferrer"><img id="email_logo" src={emailLogo} alt="email_logo"/></a>
+        </div>
+    )
+}
