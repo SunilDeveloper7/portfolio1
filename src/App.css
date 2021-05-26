@@ -613,3 +613,7 @@ btn-main-offer:hover {
 footer p {
   margin: 0;
 }
+
+.item {
+  color: white;
+}

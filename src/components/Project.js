@@ -36,7 +36,7 @@ export default function Project () {
                 </div>
                 <div className="gif">
                     <div className="project_img">
-                        <img src="" alt="gif"/>
+                        <img src="" alt=""/>
                     </div>
                     <h2>AanartaLLC</h2>
                     <div className="site_github_container">
@@ -44,11 +44,12 @@ export default function Project () {
                         <span></span><a className="livesite" href="" target="_blank" rel="noreferrer"></a>
                     </div>
                     <p>Full stack E-commerce website where users can buy stuff and also securly checkout. Technology use in this is React.js,commerce.js and stripe</p>
+                    <ul className="item">
                     <li>Co-ordinated, constructed & deploy a fully functional, responsive eCommerce website </li>
                     <li>Perform and learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions </li>
                     <li> Fully functional eCommerce application using commerce.js,React.js and stripe 
                     Projects </li>
-                    
+                    </ul>
                     <p>(HTML, CSS, Javascript,React,stripe)</p>
                 </div>
         </div>
