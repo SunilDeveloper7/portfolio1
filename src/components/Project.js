@@ -3,7 +3,7 @@ import codepen from "../Image/codepen.png"
 
 export default function Project () {
     return (
-        <div className="project_container">
+        <div id="Projects" className="project_container">
             <h1>Projects</h1>
                 <div className="gif">
                     <div className="project_img">
@@ -44,6 +44,11 @@ export default function Project () {
                         <span></span><a className="livesite" href="" target="_blank" rel="noreferrer"></a>
                     </div>
                     <p>Full stack E-commerce website where users can buy stuff and also securly checkout. Technology use in this is React.js,commerce.js and stripe</p>
+                    <li>Co-ordinated, constructed & deploy a fully functional, responsive eCommerce website </li>
+                    <li>Perform and learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions </li>
+                    <li> Fully functional eCommerce application using commerce.js,React.js and stripe 
+                    Projects </li>
+                    
                     <p>(HTML, CSS, Javascript,React,stripe)</p>
                 </div>
         </div>

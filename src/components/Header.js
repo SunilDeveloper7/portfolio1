@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 export const Header = () => {
     return (
-        <div className="header-wrapper">
+        <div id="home" className="header-wrapper">
         <div className="main-info">
         <h1 className="name">Sunil Lama</h1>
         <Typed

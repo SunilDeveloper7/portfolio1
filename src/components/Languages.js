@@ -1,7 +1,10 @@
 import React from "react";
 const Languages =() => {
     return(
-    <div className="languages">
+    <div id="languages" className="languages">
+    
+    
+
         <h1 className="py-5"> My Skills</h1>
         <div className="container">
         <div className="row">

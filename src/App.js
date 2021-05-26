@@ -8,6 +8,7 @@ import Resume from "./components/Resume";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Languages from "./components/Languages";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -37,6 +38,7 @@ function App() {
     <Languages />
     <Project />
     <Contact />
+    <Footer />
     
 
     </>
