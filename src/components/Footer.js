@@ -19,7 +19,7 @@ const Footer =()=> {
         <p>San Pablo,California</p>
         </div>
         <div className="d-felx">
-        <a href="tel:555-555-5555">+1(341)600-9508</a>
+        <a href="tel:555-555-5555">+1(510)365-9852</a>
         </div>
         <div className="d-felx">
         <p>sunnil474@gmail.com</p>
@@ -55,8 +55,8 @@ const Footer =()=> {
         </EmailShareButton>
         </div>
         <p className="pt-3 text-center">
-        copyright&copy;
-        {new Date().getFullYear()}&nbsp;Sunil lama | All Rights Reserved
+        &copy;
+        {new Date().getFullYear()}&nbsp;Sunil lama
         </p>
         </div>
         </div>
