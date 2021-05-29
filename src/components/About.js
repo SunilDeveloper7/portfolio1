@@ -35,7 +35,7 @@ const About = () => {
         I believe we will learn faster and more. As the saying goes two heads are better than one.
         </p>
         <div className="resume_linkedin_github">
-                        <button id="resume" type="button"><a href="https://drive.google.com/file/d/1V2TU5NVi2_fPOgqUFKAeOa_I6VrMP18P/view?usp=sharing" target="_blank">Resume</a></button>
+                        <button id="resume" type="button"><a href="https://drive.google.com/file/d/17JhPz3Gyc6idifst3aDF5hHhqHDbTH0l/view?usp=sharing" target="_blank">Resume</a></button>
                         <button id="linkedin" type="button"><a href="https://www.linkedin.com/in/sunil-lama-coder/" target="_blank">LINKEDIN</a></button>
                         <button id="github" type="button"><a href="https://github.com/SunilDeveloper7" target="_blank">GITHUB</a></button>
                         
